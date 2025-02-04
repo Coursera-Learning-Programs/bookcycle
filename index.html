@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookCycle | Connecting readers with pre-loved books</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">BookCycle</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#browse">Browse</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#sell">Sell Books</a></li>
+                <li><a href="#account" class="btn-account">My Account</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Favorite Book</h1>
+            <p>Seattle's favorite source for pre-loved books since 2010</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search by title, author, or genre...">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="sell-buy-section">
+            <h2>Buy Books with BookCycle</h2>
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Browse Our Selection</h3>
+                    <p>Explore thousands of pre-loved books across our three locations or check our online inventory.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Quality Guaranteed</h3>
+                    <p>All our books are carefully inspected and graded for quality and priced accordingly.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Fair Prices</h3>
+                    <p>Get great deals on classic literature, with most books priced 50-70% below retail.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Member Benefits</h3>
+                    <p>Join our membership program for additional discounts and first access to new arrivals.</p>
+                </div>
+            </div>
+            <div class="pricing-info">
+                <h3>Our Pricing Guide</h3>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h4>Like New</h4>
+                        <p>Appears unread, pristine condition</p>
+                        <span class="price">70-80% of retail</span>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Very Good</h4>
+                        <p>Minor wear, clean pages</p>
+                        <span class="price">60-70% of retail</span>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Good</h4>
+                        <p>Average wear, all pages intact</p>
+                        <span class="price">50-60% of retail</span>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Fair</h4>
+                        <p>Noticeable wear, still readable</p>
+                        <span class="price">30-50% of retail</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations" id="locations">
+            <h2>Our Locations</h2>
+            <div class="location-grid">
+                <div class="location-card">
+                    <h3>Downtown</h3>
+                    <p>123 Pike Street</p>
+                    <p>Seattle, WA 98101</p>
+                    <button class="btn-secondary">Get Directions</button>
+                </div>
+                <div class="location-card">
+                    <h3>University District</h3>
+                    <p>456 University Way</p>
+                    <p>Seattle, WA 98105</p>
+                    <button class="btn-secondary">Get Directions</button>
+                </div>
+                <div class="location-card">
+                    <h3>Suburban</h3>
+                    <p>789 Main Street</p>
+                    <p>Seattle, WA 98115</p>
+                    <button class="btn-secondary">Get Directions</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Join Our Community</h2>
+                <p>Get exclusive access to special events and member-only discounts</p>
+                <button class="btn-primary">Become a Member</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Mon-Sat: 9am-8pm</p>
+                <p>Sun: 10am-6pm</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@bookcycle.com</p>
+                <p>Phone: (206) 555-0123</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 BookCycle. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
